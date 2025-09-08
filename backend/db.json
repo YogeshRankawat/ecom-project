@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@example.com",
+      "password": "$2a$08$...",
+      "resetToken": null,
+      "resetTokenExpiry": null
+    },
+    {
+      "id": 2,
+      "email": "yogeshrankwat7773@gmail.com",
+      "password": "$2a$08$ui.CLP2C14Qx9FA.B8FpjuifYtfn/Z.rKgkgriE6ARg5VMB6GjOyu",
+      "resetToken": null,
+      "resetTokenExpiry": null
+    },
+    {
+      "id": 3,
+      "email": "dsfsdjkf",
+      "password": "$2a$08$oEtaN6Y83a6KEPT5afSgEOzo6CyFxMJOZlkv2pnYbBuRusNEoP9Hy"
+    },
+    {
+      "id": 4,
+      "email": "yogeshrankwat@gmail.com",
+      "password": "$2a$08$TeIgXe0ATN3DWpH1uBzFZunRcma0iwv93cMXfr1RuauCyjHV5whMm"
+    },
+    {
+      "id": 5,
+      "email": "yswami86@gmail.com",
+      "password": "$2a$08$bolAKR1mELfcDgADB6fuN.9qVH0/pyVPMDpizwlC7GBCnZ7KlQS5y",
+      "resetToken": null,
+      "resetTokenExpiry": null
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "title": "Iphone 16 ",
+      "desc": "A sleek and powerful Android smartphone with 8GB RAM and 128GB storage.",
+      "price": 45000,
+      "category": "electronics",
+      "image": "http://localhost:4000/images/hjhh.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Classic Leather Watch",
+      "desc": "An elegant analog watch with a genuine leather strap.",
+      "price": 4500,
+      "category": "accessories",
+      "image": "http://localhost:4000/images/classicWatch.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Running Shoes",
+      "desc": "Lightweight and comfortable running shoes for daily use.",
+      "price": 3200,
+      "category": "footwear",
+      "image": "http://localhost:4000/images/shoes.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Gaming Laptop",
+      "desc": "High-performance gaming laptop with RTX 3060 graphics card.",
+      "price": 85000,
+      "category": "electronics",
+      "image": "http://localhost:4000/images/Gameing_lap.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Noise Cancelling Headphones",
+      "desc": "High-quality wireless headphones with active noise cancellation.",
+      "price": 7500,
+      "category": "accessories",
+      "image": "http://localhost:4000/images/headphone.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Laptop",
+      "desc": "High-performance gaming laptop with RTX 3060 graphics card.",
+      "price": 50000,
+      "category": "electronics",
+      "image": "http://localhost:4000/images/lap.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Rolex Watch",
+      "desc": "An elegant analog watch with a genuine leather strap.",
+      "price": 7999,
+      "category": "accessories",
+      "image": "http://localhost:4000/images/rolex.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Premium Smartphone",
+      "desc": "A sleek and powerful Android smartphone with 8GB RAM and 128GB storage.",
+      "price": 25000,
+      "category": "electronics",
+      "image": "http://localhost:4000/images/smartphone.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "userId": 2,
+      "itemId": 2,
+      "qty": 1
+    },
+    {
+      "id": 7,
+      "userId": 5,
+      "itemId": 3,
+      "qty": 1
+    },
+    {
+      "id": 8,
+      "userId": 5,
+      "itemId": 4,
+      "qty": 1
+    },
+    {
+      "id": 9,
+      "userId": 5,
+      "itemId": 8,
+      "qty": 2
+    }
+  ],
+  "nextUserId": 6,
+  "nextCartId": 10
+}
