@@ -154,9 +154,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const password = document.getElementById('signup-password').value;
         const signupError = document.getElementById('signup-error');
          if (!emailPattern.test(email)) {
-            signupError.textContent = 'कृपया एक मान्य ईमेल एड्रेस दर्ज करें।';
+            signupError.textContent = 'Please enter a valid email address.';
             signupError.classList.remove('d-none');
-            return; // आगे की प्रक्रिया रोक दें
+            return;
         }
         try {
             const data = await apiCall('/auth/signup', 'POST', { email, password });
@@ -210,7 +210,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('back-to-shop-btn').addEventListener('click', () => switchView('shop'));
     document.getElementById('forgot-submit-btn').addEventListener('click', handleForgotPassword);
 
-    // और async function handleSignup के ऊपर यह नया फंक्शन जोड़ें
     async function handleForgotPassword(e) {
         e.preventDefault();
         const email = document.getElementById('forgot-email').value;
@@ -218,10 +217,10 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const data = await apiCall('/auth/forgot-password', 'POST', { email });
             msgDiv.textContent = data.message;
-            msgDiv.className = 'alert alert-success'; // सफल होने पर हरा रंग
+            msgDiv.className = 'alert alert-success'; 
         } catch (error) {
             msgDiv.textContent = error.message;
-            msgDiv.className = 'alert alert-danger'; // एरर पर लाल रंग
+            msgDiv.className = 'alert alert-danger';
         }
         msgDiv.classList.remove('d-none');
     }
